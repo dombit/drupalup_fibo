@@ -29,4 +29,8 @@ class FibonacciService {
     return $this->fiboSequence[count($this->fiboSequence) - $preceding];
   }
 
+  public function add_2_numbers($x, $y) {
+    return $x + $y;
+  }
+
 }
